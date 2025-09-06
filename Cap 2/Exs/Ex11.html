@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Exercício 4:</p>
+  <script>
+    function media(idade){
+      if (idade < 16)
+        return "Não pode votar";
+      if((idade >= 16 && idade < 18) || 
+        (idade > 70))
+        return "Voto facultativo";
+      if(idade >= 18 && idade < 70)
+        return "Voto Obrigatorio";
+    }
+    
+    console.log(media(5, 10));
+  </script>
+</body>
+</html>
